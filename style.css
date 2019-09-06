@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(165, 165, 165);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36pt;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: left;
+}
+
+p, h1, h2{
+    color: rgb(67, 133, 0);
+}
+
+strong{
+    color: rgba(222, 41, 0, 0.975);
+}
+
+ul{
+    list-style-type: upper-roman;
+}
+
+.sublist{
+    list-style-type: disc;
+}
+
+li{
+    padding-bottom: 5px;
+}
+
+.links{
+    color:blue;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1.0;
+}
+
+pre{
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+table{
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+td{
+    padding-bottom: 5px;
+}
